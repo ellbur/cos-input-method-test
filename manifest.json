@@ -1,0 +1,23 @@
+{
+  "name": "OwenIM",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Blah blah blah",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input",
+    "storage"
+  ],
+  "input_components": [
+    {
+      "name": "OwenIM",
+      "type": "ime",
+      "id": "owenim",
+      "description": "Blah blah blah",
+      "language": "en-US",
+      "layouts": ["us"]
+    }
+  ]
+}
